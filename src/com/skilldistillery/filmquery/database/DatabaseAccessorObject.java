@@ -131,6 +131,7 @@ public class DatabaseAccessorObject implements DatabaseAccessor {
 				film.setLanguage(rs.getString("language.name"));
 				film.setDescription(rs.getString("description"));
 				film.setReleaseYear(rs.getInt("release_year"));
+				
 
 				list.add(film);
 
@@ -149,5 +150,6 @@ public class DatabaseAccessorObject implements DatabaseAccessor {
 		// TODO Auto-generated method stub
 		return null;
 	}
+
 
 }
